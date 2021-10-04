@@ -1,7 +1,11 @@
-const cron = require('cron')
-const moment = require('moment')
-const Parse = require('parse/node')
-const rp = require('request-promise')
+// import cron from 'cron'
+// import moment from 'moment'
+// import Parse from 'parse/node'
+// import rp from 'request-promise'
+
+cron = require('cron')
+moment = require('moment')
+rp = require('request-promise')
 
 const CronJob = cron.CronJob
 const PARSE_TIMEZONE = 'UTC'
